@@ -1,8 +1,14 @@
 header {
     background-color: lightslategray;
+    width: 100%;
+    padding: 0 0;
+}
+
+#navbar {
     margin: 0 auto;
     width: 940px; 
     height: 69px;
+
 }
 
 h1 {
@@ -13,6 +19,15 @@ h1 {
     padding: 15px 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
+}
+
+.nav {
+    float: right;
+}
+
+hr {
+    color: darkorange;
+    width: 900px;
 }
 
 #underheader {
@@ -29,6 +44,7 @@ h1 {
 
 body {
     background-color: burlywood;
+    z-index: -2;
 }
 
 .nav {
@@ -58,6 +74,23 @@ body {
     height: 15%;
     width: 15%;
     float: left;
+    margin: 0 auto;
+    padding: 20px;
+
+} 
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+
+
+}
+
+.bodytext {
+    font-size: 20px;
+    margin: 0, auto;
+    padding: 20px;
 
 }
 
