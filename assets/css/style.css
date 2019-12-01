@@ -1,11 +1,14 @@
 header {
     background-color: lightslategray;
     margin: 0 auto;
-    color: darkorange;
+    
+
+    width: 940px; 
+    height: 34px;
 }
 
 h1 {
-    background-color: lightslategray;
+    _background-color: rgb(71, 81, 90);
     margin: 0 auto;
     color: darkorange;
     float: left;
@@ -13,7 +16,7 @@ h1 {
 }
 
 body {
-    background-color: yellow;
+    background-color: burlywood;
 }
 
 .nav {
@@ -22,3 +25,4 @@ body {
     color: black;
 
 }
+
