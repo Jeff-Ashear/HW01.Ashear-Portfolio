@@ -1,17 +1,29 @@
 header {
     background-color: lightslategray;
     margin: 0 auto;
-    
-
     width: 940px; 
-    height: 34px;
+    height: 69px;
 }
 
 h1 {
-    _background-color: rgb(71, 81, 90);
-    margin: 0 auto;
+    background-color: rgb(71, 81, 90);
     color: darkorange;
     float: left;
+    margin: 0 auto;
+    padding: 15px 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#underheader {
+    z-index: -1;
+    background-color: lightslategray;
+    height: 69px;
+    width: 100%;
+    margin: 0;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: black;
 
 }
 
@@ -23,6 +35,30 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
     color: black;
+}
+
+.container {
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    width: 940px;
+    background-color: lightslategray;
+    margin: 0 auto;
+}
+
+#subheader {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:  rgb(71, 81, 90);
+    padding: 15px 15px;
 
 }
+
+#bioPic {
+    transform: rotate(90deg);
+    height: 15%;
+    width: 15%;
+    float: left;
+
+}
+
 
