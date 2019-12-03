@@ -9,39 +9,47 @@
 </head>
 
 <body>
-    <div>
+    <div id="navbar">
         <header>
             <h1>Jeff Ashear</h1>
+            <div class="nav">
+                <ul>
+                    <li><a href="index.works.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            
+            <!--<div id="underheader"></div>-->
         </header>
-    </div>
-    <div class="nav">
+    <!-- <div class="nav">
         <a href="index.works.html"><input type="button" value="About"/></a>
         <a href="contact.html"><input type="button" value="Contact"/></a>
         <a href="portfolio.html"><input type="button" value="Portfolio"/></a>
-    </div>
+    </div> -->
 
     <br><br>
     <div class="container">
         <h2 id="subheader">Contact</h2>
         <br><hr><br>
         
-        <div class="bodytext">
+        <div class="contacttext">
             <form action="mailto:kinesthesiac@gmail.com" method="post" enctype="text/plain">
                 <label for="name">Name</label><br>
-                <input type="text" id="name" name="name" placeholder="Your Name">
+                <input class="inputbox" type="text" id="name" name="name" placeholder="Your Name">
                 <br><br>
 
                 <label for="email">Email</label><br>
-                <input type="text" name="mail" placeholder="Your email">
+                <input class="inputbox" type="text" name="mail" placeholder="Your email">
                 <br><br>
 
-                <label for="message">Message</label><br>
-                <input type="text" id="email" placeholder="Your message here." size="125">
+                <label id="msglabel" for="message">Message</label><br>
+                <textarea id="msgbox" type="text" id="email" placeholder="Your message here." size="700"></textarea>
                 <br><br>
 
                 <input type="submit" value="Submit">
 
-                <
+                
             </form>
         </div>
             
