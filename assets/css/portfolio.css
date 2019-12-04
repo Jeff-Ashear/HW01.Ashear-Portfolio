@@ -11,6 +11,10 @@
 }
 
 .text-block: {
+    font-family: 'Audiowide', cursive;
+    color: darkorange;
+    font-size: 24px;
+
     position: absolute;
     bottom: 20px;
     background-color: darkslategray;
@@ -21,8 +25,9 @@
     z-index: 1;
 }
 
-h4 {
+.textButton {
     color: darkorange;
     font-family: 'Audiowide', cursive;
     font-size: 25px;
+    z-index: 2;
 }

@@ -1,3 +1,9 @@
+body {
+    background-image: url("../images/prism.png");
+    background-repeat: repeat;
+    z-index: -2;
+}
+
 header {
     background-color: lightslategray;
     
@@ -49,12 +55,7 @@ hr {
     width: 900px;
 }
 
-
-body {
-    background-color: burlywood;
-    z-index: -2;
-}
-
+   
 .nav {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
