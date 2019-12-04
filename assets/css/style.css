@@ -103,4 +103,17 @@ hr {
 
 }
 
+.content {
+    min-height: calc(100vh - 70px);
+}
+.footer {
+    height: 50px;
+    width: 100%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    background-color: lightslategray;
+    text-align: center;
+    padding-top: 15px;
+}
 
