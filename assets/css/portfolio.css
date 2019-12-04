@@ -6,12 +6,90 @@
     margin: 10 auto;
 }
 
-.container: {
+.container {
     position: relative;
 }
 
-.text-block: {
-    font-family: 'Audiowide', cursive;
+.tiles{
+    position: relative;
+    width: 200px;
+    height: 300px;
+    transform: scale(100%);
+    float: left;
+    margin-bottom: 50px;
+}
+
+#tile1 {
+    background: url("../images/Periphery logo.PNG");
+    margin-left: 150px;
+   
+}
+
+#tile1 .text-block {
+    position: absolute; 
+    bottom: 0px;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+}
+
+#tile2 {
+    background: url("../images/Cheesey Puff.PNG");
+    margin-left: 100px;
+       
+}
+
+#tile2 .text-block {
+    position: absolute; 
+    bottom: 0px;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+}
+
+#tile3 {
+    background: url("../images/Crystalbot.PNG");
+    margin-left: 150px;
+}
+
+#tile3 .text-block {
+    position: absolute; 
+    bottom: 0px;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+}
+
+#tile4 {
+    background: url("../images/hermitscore1.png");
+    margin-left: 100px
+    
+}
+
+#tile4 .text-block {
+    position: absolute; 
+    bottom: 0px;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+}
+
+#tile5 {
+    background: url("../images/Entanglements.PNG");
+    margin-left: 150px;
+    margin-bottom: 150px;
+}
+
+#tile5 .text-block {
+    position: absolute; 
+    bottom: 0px;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+}
+
+/* .text-block {
+    font-family: ver
     color: darkorange;
     font-size: 24px;
 
@@ -23,11 +101,11 @@
     padding-right: 20px;
     text-align: center;
     z-index: 1;
-}
+} */
 
 .textButton {
     color: darkorange;
-    font-family: 'Audiowide', cursive;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
     z-index: 2;
 }
