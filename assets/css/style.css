@@ -5,7 +5,7 @@ header {
 
 #navbar {
     margin: 0 auto;
-    width: 960px; 
+    width: 960px;
     height: 69px;
 
 }
@@ -49,19 +49,6 @@ hr {
     width: 900px;
 }
 
-#underheader {
-    z-index: -1;
-    _background-color: lightslategray;
-    background-color: #fff;
-    height: 69px;
-    width: 100%;
-    margin: 0;
-    position: top;
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
-    border-bottom-color: black;
-
-}
 
 body {
     background-color: burlywood;
@@ -115,20 +102,4 @@ body {
 
 }
 
-.contacttext {
-    font-family: 'Audiowide', sans-serif;
-    margin: 20px;
-}
 
-.inputbox {
-    width: 900px;
-}
-
-#msgbox {
-    width: 900px;
-    height: 200px;
-}
-
-#msglabel {
-    top: 10px;
-}

@@ -1,0 +1,28 @@
+#picbtns {
+    float: left;
+    height: 300px;
+    width: 200px;
+    padding: 20px 100px;
+    margin: 10 auto;
+}
+
+.container: {
+    position: relative;
+}
+
+.text-block: {
+    position: absolute;
+    bottom: 20px;
+    background-color: darkslategray;
+    color: darkorange;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    z-index: 1;
+}
+
+h4 {
+    color: darkorange;
+    font-family: 'Audiowide', cursive;
+    font-size: 25px;
+}
