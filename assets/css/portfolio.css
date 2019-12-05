@@ -14,13 +14,15 @@
     position: relative;
     width: 200px;
     height: 300px;
-    transform: scale(100%);
     float: left;
     margin-bottom: 50px;
 }
 
 #tile1 {
     background: url("../images/Periphery logo.PNG");
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
     margin-left: 150px;
    
 }
@@ -35,6 +37,8 @@
 
 #tile2 {
     background: url("../images/Cheesey Puff.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-left: 100px;
        
 }
@@ -50,6 +54,9 @@
 #tile3 {
     background: url("../images/Crystalbot.PNG");
     margin-left: 150px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
 }
 
 #tile3 .text-block {
@@ -62,7 +69,8 @@
 
 #tile4 {
     background: url("../images/hermitscore1.png");
-    margin-left: 100px
+    margin-left: 100px;
+    background-size: contain;
     
 }
 
@@ -78,6 +86,8 @@
     background: url("../images/Entanglements.PNG");
     margin-left: 150px;
     margin-bottom: 150px;
+    background-size: contain;    
+
 }
 
 #tile5 .text-block {
@@ -104,8 +114,15 @@
 } */
 
 .textButton {
-    color: darkorange;
+    color:rgb(71, 81, 90);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
     z-index: 2;
+}
+
+a .textbutton:hover {
+    color: darkorange;
+    border-style: groove;
+    background-color: darkslategray;
+    border-color: white;
 }
